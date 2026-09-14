@@ -1,6 +1,6 @@
 # Employee Turnover Data Cleaning
 
-A Python/pandas script that profiles and cleans the Employee Turnover Dataset — detecting and fixing duplicate records, missing values, inconsistent category labels, formatting errors, and statistical outliers — to prepare it for downstream analysis and modeling.
+A personal/academic project: a Python/pandas script that profiles and cleans the Employee Turnover Dataset — detecting and fixing duplicate records, missing values, inconsistent category labels, formatting errors, and statistical outliers — to prepare it for downstream analysis and modeling.
 
 ## What it does
 
@@ -24,7 +24,7 @@ Running `clean_employee_turnover.py` against `Employee_Turnover_Dataset.csv` per
 
 ## Dataset
 
-`Employee_Turnover_Dataset.csv` — approximately 10,199 employee records with 16 columns, including demographic fields (`Age`, `Gender`, `MaritalStatus`), employment fields (`Tenure`, `JobRoleArea`, `CompensationType`, `AnnualSalary`, `HourlyRate`, `HoursWeekly`), and the `Turnover` outcome label (`Yes`/`No`).
+`Employee_Turnover_Dataset.csv` is a **synthetic sample dataset** — 308 fabricated records generated for this project, not real employee data. It has 16 columns, including demographic fields (`Age`, `Gender`, `MaritalStatus`), employment fields (`Tenure`, `JobRoleArea`, `CompensationType`, `AnnualSalary`, `HourlyRate`, `HoursWeekly`), and the `Turnover` outcome label (`Yes`/`No`). The generator deliberately seeds the same data-quality issues the cleaning script is built to catch: duplicate rows, missing values, inconsistent category spellings, a currency-formatted rate column, and negative/extreme outliers.
 
 ## Requirements
 
