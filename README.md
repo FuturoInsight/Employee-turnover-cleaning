@@ -62,4 +62,4 @@ This prints the full profiling and cleaning report to the console and writes `Em
 
 ## License
 
-TBD
+MIT — see [LICENSE](LICENSE).
